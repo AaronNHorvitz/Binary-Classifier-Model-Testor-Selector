@@ -1,6 +1,5 @@
 ## Binary-Classifier-Model-Testor-Selector
-This tests various classifier models on binary target data to see which one maximizes performance.  It then returns all the models, model performance statistics as well the ROC curves and Precision Recall plots, as well performance plots against the number of estimators used. 
-
+This tests various classifier models on binary target data to see which one maximizes performance. It then returns all the models, model performance statistics as well the ROC curves and Precision-Recall plots, as well as performance plots against the number of estimators used.
 
 Here is example code of how to use it. 
 
