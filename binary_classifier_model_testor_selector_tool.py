@@ -1,7 +1,7 @@
 # This is a binary classifier model selection tool.  It tests the performance of various classifier models against a binary target.  The function definition to execute the function is found below. 
 # NOTE: It will automatically upsample the target data unless specified not to by setting 'upsample_rare_events = False' when called. 
 # 
-# To execute the code, split the data into X_test, y_test, X_train, and y_train using scikit-learn'ss train test split module
+# To execute the code, split the data into X_test, y_test, X_train, and y_train using scikit-learn's train test split module
 # Then execute the following code, remembering to set the upsample_rare_event to True or False
 #
 # classifier_model_dictionary, classifier_model_statistics_df = execute_binary_classifier_model_tests(X_test, y_test, X_train, y_train, upsample_rare_events = True)
