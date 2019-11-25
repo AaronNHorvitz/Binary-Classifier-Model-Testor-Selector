@@ -20,5 +20,5 @@ X = df[[col for col in df.columns if col != 'class']]
 X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=.60)
 
 ### Execute the binary classifier model testor
-execute_binary_classifier_model_tests(X_test, y_test, X_train, y_train, upsample_rare_events = True)
+classifier_model_dictionary, classifier_model_statistics_df = execute_binary_classifier_model_tests(X_test, y_test, X_train, y_train, upsample_rare_events = True)
 
